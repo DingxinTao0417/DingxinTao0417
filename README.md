@@ -7,7 +7,7 @@
 
 <p align="center">
   <samp>
-    <a href="https://tdx-portfolio.vercel.app/">作品集</a> ·
+    <a href="https://taodingxin.com">作品集</a> ·
     <a href="#产品">产品</a> ·
     <a href="#精选">精选</a> ·
     <a href="mailto:taodingxin0417@gmail.com">邮箱</a>
