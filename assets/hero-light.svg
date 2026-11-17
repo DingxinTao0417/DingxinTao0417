@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260" role="img" aria-labelledby="title desc">
+  <title id="title">陶鼎新 Dingxin Tao</title>
+  <desc id="desc">个人主页横幅：AI 全栈工程师，Diffra 与 Conuo 的作者。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7F4EF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#F0653A" stop-opacity=".26"/>
+      <stop offset=".55" stop-color="#F0653A" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#F0653A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#E2552B"/>
+      <stop offset=".5" stop-color="#6F5BE0" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#6F5BE0" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#0B0F15" stroke-opacity=".055"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="880" height="260" rx="18"/>
+    </clipPath>
+    <clipPath id="typed">
+      <rect x="448" y="84" width="0" height="30">
+        <animate attributeName="width" from="0" to="210" dur=".95s" begin=".35s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="880" height="260" fill="url(#bg)"/>
+    <rect width="880" height="260" fill="url(#grid)"/>
+    <ellipse cx="790" cy="-16" rx="300" ry="200" fill="url(#glow)">
+      <animate attributeName="opacity" values=".7;1;.7" dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+      <text x="52" y="78" fill="#C2552B" font-size="10" font-weight="750" letter-spacing="3.4">AI FULL-STACK · AGENT TOOLING</text>
+      <text x="52" y="132" fill="#0B0F15" font-size="42" font-weight="800" letter-spacing="-1.2">DINGXIN TAO</text>
+      <text x="52" y="158" fill="#6B7480" font-size="13" font-weight="600" letter-spacing="1.6">陶鼎新 · LOS ANGELES</text>
+      <path d="M52 182H332" stroke="url(#rule)" stroke-width="1.4"/>
+      <text x="52" y="206" fill="#6B7480" font-size="11.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing=".5">diffra.dev · conuo.vercel.app</text>
+    </g>
+
+    <g>
+      <rect x="428" y="38" width="404" height="160" rx="13" fill="#FFFFFF" stroke="#E4DFD6"/>
+      <path d="M428 72H832" stroke="#E4DFD6"/>
+      <circle cx="450" cy="55" r="4" fill="#E2552B"/>
+      <circle cx="464" cy="55" r="4" fill="#D9D3C9"/>
+      <circle cx="478" cy="55" r="4" fill="#D9D3C9"/>
+      <text x="808" y="59" fill="#A29B90" font-size="9" font-family="ui-monospace, Menlo, Consolas, monospace" letter-spacing="1.6" text-anchor="end">DIFFRA</text>
+
+      <text x="448" y="105" fill="#E2552B" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$</text>
+      <g clip-path="url(#typed)">
+        <text x="462" y="105" fill="#171B21" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">diffra "fix login spacing"</text>
+      </g>
+      <rect x="652" y="95" width="7" height="13" rx="1" fill="#E2552B" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.32;.36;.62;.66;1" dur="2.2s" begin="1.3s" repeatCount="indefinite"/>
+      </rect>
+
+      <text x="448" y="132" fill="#6B7480" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Microsoft YaHei', monospace" opacity="0">正在读取 app/login/page.tsx
+        <animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.35s" fill="freeze"/>
+      </text>
+      <text x="448" y="156" fill="#1A7F37" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" opacity="0">+  gap: 24px;
+        <animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.95s" fill="freeze"/>
+      </text>
+      <text x="448" y="180" fill="#171B21" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Microsoft YaHei', monospace" opacity="0">检查通过 · 3 files changed
+        <animate attributeName="opacity" from="0" to="1" dur=".4s" begin="2.55s" fill="freeze"/>
+      </text>
+    </g>
+  </g>
+
+  <rect x=".5" y=".5" width="879" height="259" rx="17.5" fill="none" stroke="#0B0F15" stroke-opacity=".08"/>
+</svg>
